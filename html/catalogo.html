@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda Tenis - Catálogo</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo"><h1>Logo aquí</h1></div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a class="active" href="catalogo.html">Catálogo</a></li>
+                <li><a href="carrito.html">Carrito</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2 class="section-title">Nuestro Catálogo</h2>
+        <div class="filter-buttons">
+            <button class="filter-btn" onclick="filterCatalog('damas', event)">Damas</button>
+            <button class="filter-btn" onclick="filterCatalog('caballeros', event)">Caballeros</button>
+            <button class="filter-btn" onclick="filterCatalog('niños', event)">Niños</button>
+        </div>
+        <div class="grid-container" id="catalogGrid">
+            
+            <div class="card product-item caballeros">
+                <div class="card-img">
+                    <img src="../img/nike1.png" alt="Nike Air Max">
+                </div>
+                <div class="card-info">
+                    <h3>Modelo</h3>
+                    <p>Categoria</p>
+                    <p class="price">$3,000 MXN</p>
+                </div>
+            </div>
+            <div class="card product-item caballeros">
+                <div class="card-img">
+                    <img src="../img/nike2.png" alt="Nike Air Force">
+                </div>
+                <div class="card-info">
+                    <h3>Modelo</h3>
+                    <p>Categoria</p>
+                    <p class="price">$3,800 MXN</p>
+                </div>
+            </div>
+            <div class="card product-item caballeros">
+                <div class="card-img">
+                    <img src="../img/nike3.png" alt="Nike Air Max">
+                </div>
+                <div class="card-info">
+                    <h3>Modelo</h3>
+                    <p>Categoria</p>
+                    <p class="price">$4,500 MXN</p>
+                </div>
+            </div>
+            <div class="card product-item caballeros">
+                <div class="card-img">
+                    <img src="../img/nike4.png" alt="Nike Air Max">
+                </div>
+                <div class="card-info">
+                    <h3>Modelo</h3>
+                    <p>Categoria</p>
+                    <p class="price">$5,000 MXN</p>
+                </div>
+            </div>
+            <div class="card product-item caballeros">
+                <div class="card-img">
+                    <img src="../img/nike5.png" alt="Nike Air Max">
+                </div>
+                <div class="card-info">
+                    <h3>Modelo</h3>
+                    <p>Categoria</p>
+                    <p class="price">$5,500 MXN</p>
+                </div>
+            </div>
+            <div class="card product-item caballeros">
+                <div class="card-img">
+                    <img src="../img/nike6.png" alt="Nike Air Max">
+                </div>
+                <div class="card-info">
+                    <h3>Modelo</h3>
+                    <p>Categoria</p>
+                    <p class="price">$6,000 MXN</p>
+                </div>
+            </div>            
+
+            <div class="card product-item damas">
+                <div class="card-img">
+                    <img src="../img/nike7.png" alt="Nike Air Max">
+                </div>
+                <div class="card-info">
+                    <h3>Modelo</h3>
+                    <p>Categoria</p>
+                    <p class="price">$3,000 MXN</p>
+                </div>
+            </div>
+            <div class="card product-item damas">
+                <div class="card-img">
+                    <img src="../img/nike8.png" alt="Nike Air Max">
+                </div>
+                <div class="card-info">
+                    <h3>Modelo</h3>
+                    <p>Categoria</p>
+                    <p class="price">$3,800 MXN</p>
+                </div>
+            </div>
+            <div class="card product-item damas">
+                <div class="card-img">
+                    <img src="../img/nike9.png" alt="Nike Air Max">
+                </div>
+                <div class="card-info">
+                    <h3>Modelo</h3>
+                    <p>Categoria</p>
+                    <p class="price">$4,900 MXN</p>
+                </div>
+            </div>
+            <div class="card product-item damas">
+                <div class="card-img">
+                    <img src="../img/nike2.png" alt="Nike Air Max">
+                </div>
+                <div class="card-info">
+                    <h3>Modelo</h3>
+                    <p>Categoria</p>
+                    <p class="price">$5,000 MXN</p>
+                </div>
+            </div>
+            <div class="card product-item damas">
+                <div class="card-img">
+                    <img src="../img/nike3.png" alt="Nike Air Max">
+                </div>
+                <div class="card-info">
+                    <h3>Modelo</h3>
+                    <p>Categoria</p>
+                    <p class="price">$5,500 MXN</p>
+                </div>    
+            </div>
+            <div class="card product-item damas">
+                <div class="card-img">
+                    <img src="../img/nike4.png" alt="Nike Air Max">
+                </div>
+                <div class="card-info">
+                    <h3>Modelo</h3>
+                    <p>Categoria</p>
+                    <p class="price">$6,000 MXN</p>
+                </div>
+            </div>
+
+            <div class="card product-item niños">
+                <div class="card-img">
+                    <img src="../img/nike5.png" alt="Nike Air Max">
+                </div>
+                <div class="card-info">
+                    <h3>Modelo</h3>
+                    <p>Categoria</p>
+                    <p class="price">$3,000 MXN</p>
+                </div>
+            </div>
+            <div class="card product-item niños">
+                <div class="card-img">
+                    <img src="../img/nike6.png" alt="Nike Air Max">
+                </div>
+                <div class="card-info">
+                    <h3>Modelo</h3>
+                    <p>Categoria</p>
+                    <p class="price">$3,800 MXN</p>
+                </div>
+            </div>
+                </div>
+                <div class="card-info">
+                    <h3>Modelo</h3>
+                    <p>Categoria</p>
+                    <p class="price">$3,800 MXN</p>
+                </div>
+            </div>
+            <div class="card product-item niños">
+                <div class="card-img">
+                    <img src="" alt="">
+                </div>
+                <div class="card-info">
+                    <h3>Modelo</h3>
+                    <p>Categoria</p>
+                    <p class="price">$4,900 MXN</p>
+                </div>
+            </div>
+            <div class="card product-item niños">
+                <div class="card-img">
+                    <img src="" alt="">
+                </div>
+                <div class="card-info">
+                    <h3>Modelo</h3>
+                    <p>Categoria</p>
+                    <p class="price">$5,000 MXN</p>
+                </div>
+            </div>
+            <div class="card product-item niños">
+                <div class="card-img">
+                    <img src="" alt="">
+                </div>
+                <div class="card-info">
+                    <h3>Modelo</h3>
+                    <p>Categoria</p>
+                    <p class="price">$5,500 MXN</p>
+                </div>
+            </div>
+            <div class="card product-item niños">
+                <div class="card-img">
+                    <img src="" alt="">
+                </div>
+                <div class="card-info">
+                    <h3>Modelo</h3>
+                    <p>Categoria</p>
+                    <p class="price">$6,000 MXN</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="social-links">
+            <a href="#" target="_blank"><li data-lucide="book-open"></li>facebook</a>
+            <a href="#" target="_blank"><li data-lucide="camera"></li>instagram</a>
+            <a href="#" target="_blank"><li data-lucide="music-2"></li>tiktok</a>
+        </div>
+        <p>Examen Unidad 3 Tópicos. Todos los derechos reservados.</p>
+    </footer>
+    <script src="../JS/script.js"></script>
+</body>
+</html>
