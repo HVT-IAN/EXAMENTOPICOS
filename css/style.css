@@ -1,9 +1,9 @@
 :root {
     --primary: #191919;
     --accent: #404040;
-    --light: #ff0400;
-    --text: #ff3936;
-    --white: #ff7673;
+    --light: #ff7673;
+    --text: #000000;
+        --white: #ff5c5977;
     --shadow: 0 4px 15px rgba(0,0,0,0.1);
     --transition: all 0.3s ease;
 }

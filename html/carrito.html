@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrito de Compra</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="cart-page">
+    <header class="header">
+        
+        <div class="logo">
+            <li data-lucide="sport-shoe"></li>
+            <h1>KICK<span>STYLE</span></h1>
+        </div>
+        <nav>
+            <ul style="color: white;">
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="catalogo.html">Catálogo</a></li>
+                <li><a class="active" href="carrito.html">Carrito</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="cart-container">
+            <h1 class="cart-title">Carrito de Compra</h1>
+
+            <div class="table-wrapper">
+                <table class="cart-table">
+                    <thead>
+                        <tr>
+                            <th>Nombre del Producto</th>
+                            <th>Categoría</th>
+                            <th>Precio</th>
+                            <th>Cantidad</th>
+                            <th>Total</th>
+                            <th>Acciones</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="product-name">Nike Air 2</td>
+                            <td class="category">Calsado casual</td>
+                            <td class="cart-price">$899.99</td>
+                            <td><input class="cart-qty" type="number" value="1" min="1"></td>
+                            <td class="cart-price">$899.99</td>
+                            <td><button class="delete-btn"><i class="fas fa-trash"></i> Eliminar</button></td>
+                        </tr>
+                        <tr>
+                            <td class="product-name">Jordan 4</td>
+                            <td class="category">Calzado Deportivo</td>
+                            <td class="cart-price">$99.99</td>
+                            <td><input class="cart-qty" type="number" value="2" min="1"></td>
+                            <td class="cart-price">$199.98</td>
+                            <td><button class="delete-btn"><i class="fas fa-trash"></i> Eliminar</button></td>
+                        </tr>
+                        <tr>
+                            <td class="product-name">Jordan 3</td>
+                            <td class="category">Calzado Deportivo</td>
+                            <td class="cart-price">$199.99</td>
+                            <td><input class="cart-qty" type="number" value="1" min="1"></td>
+                            <td class="cart-price">$199.99</td>
+                            <td><button class="delete-btn"><i class="fas fa-trash"></i> Eliminar</button></td>
+                        </tr>
+                        <tr>
+                            <td class="product-name">Nike Air 1</td>
+                            <td class="category">Calzado casual</td>
+                            <td class="cart-price">$599.99</td>
+                            <td><input class="cart-qty" type="number" value="1" min="1"></td>
+                            <td class="cart-price">$599.99</td>
+                            <td><button class="delete-btn"><i class="fas fa-trash"></i> Eliminar</button></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="summary">
+                <div class="summary-row">Subtotal: $1,899.95</div>
+                <div class="summary-row">Envío: $10.00</div>
+                <div class="total-amount">Total: $1,909.95</div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="social-links">
+            <a href="https://www.facebook.com/nike/?locale=es_LA" target="_blank"><li data-lucide="book-open"></li>facebook</a>
+            <a href="https://www.instagram.com/nike/" target="_blank"><li data-lucide="camera"></li>instagram</a>
+            <a href="https://www.tiktok.com/@nike" target="_blank"><li data-lucide="music-2"></li>tiktok</a>
+        </div>
+        <p>Examen Unidad 3 Tópicos. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
